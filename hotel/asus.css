@@ -1,0 +1,160 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.popular{
+    width: 100%;
+    display: flex;
+    background-color: antiquewhite;
+   
+}
+.popular .logo{
+    width: 20%;
+    padding:15px;
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.popular .menu{
+    width:80%;
+    padding:15px;
+   float: right;
+   display:flex;
+}
+/* .popular .menu:hover{
+    background-color: black;
+    color: white;
+} */
+/* .popular .menu .flex{
+    display: flex;
+    margin:0 100px;
+} */
+.popular .menu ul{
+    display: flex;
+    float: right;
+    color:black;
+}
+.popular .menu ul li{
+    list-style: none;
+    padding:0 15px;
+    font-size: 20px;
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.popular .menu ul li a:hover{
+    background-color: rgb(52, 14, 190);
+    color:aliceblue;
+}
+.popular .menu ul li a{
+    text-decoration: none;
+}
+.detail{
+    display:flex ;
+    margin:20px 80px;
+}
+.icon{
+    width:100%;
+    height:300px;
+    background-color: rgb(208, 202, 202);
+    margin-top:70px;
+    position: relative;
+    padding:50px;
+}
+ .icon .left{
+      width:100%;
+      height:100%;
+
+}
+.icon .left button{
+    border:none;
+    padding:5px 20px;
+    border-radius: 10px;
+    background-color: blue;
+}
+.icon .left  a{
+    text-decoration: none;
+    color:white;
+   
+}
+.icon  .ds{
+    width:550px;
+    height:200px;
+    position: absolute;
+    left:50%;
+    top:15%;
+    display: flex;
+    object-fit: cover;
+}
+.icon  .ds .box{
+    width:25%;
+    height:100%;
+    background-color: antiquewhite;
+}
+.i{
+    width: 40px;
+    height:40px;
+    margin:30px 90px;
+}
+.information{
+    width:100%;
+    height:300px;
+    display:flex;
+    margin:90px 0;
+    /* background-color: blue; */
+}
+.left{
+    width:50%;
+    height:100%;
+}
+.right{
+    width:50%;
+    height:100%;
+}
+
+
+
+
+.footer{
+    width:100%;
+    height:400px;
+    background-color: rgb(174, 173, 173);
+    /* color:white; */
+    position: relative;
+   
+}
+
+.footer .title{
+    width:100%;
+    height:200px;
+    padding-top:10px;
+    display: flex;
+   margin-top: 20px;
+   margin-left:270px;
+}
+.title .left {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top:200px;
+    left:300px;
+   
+}
+.title .right{
+    width:50%;
+    height:100%;
+}
+.left .image{
+    margin:10px;
+    display: flex;
+   color:white;
+}
+.left .image h5{
+    margin: 0 20px;
+}
+.left .image img{
+    width:30px;
+    height:30px;
+    border-radius: 50px;
+   
+}
